@@ -19,7 +19,7 @@ int main() {
     char nome_cidade1[50];
     int populacao1, n_pont_turisticos1;
     float area_cidade1, pib_cidade1;
-    
+
     char estado2;
     char codigo_carta2[4];
     char nome_cidade2[50];
@@ -28,7 +28,7 @@ int main() {
 
     // Cadastro das Cartas:
     printf("Olá! Vamos iniciar o cadastramento das cartas!\n Vamos cadastrar a 1ª Carta!\n");
-    
+
     printf("Digite o código do Estado: ");
     scanf("%c", &estado1);
     flush_in();
@@ -54,7 +54,7 @@ int main() {
 
 
     printf("Vamos cadastrar a 2ª Carta!\n");
-    
+
     printf("Digite o código do Estado: ");
     scanf("%s", &estado2);
     flush_in();
